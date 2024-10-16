@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(fonts/Poppins-Regular.ttf);
+}
+:root {
+  --title-color: #051923;
+  --text-color: #0b132b;
+  --button-color: #6fffe9;
+}
+
+* {
+  font-family: "Poppins-Regular";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: ghostwhite;
+}
+
+.menu {
+  padding: 30px;
+  text-align: center;
+}
+
+.menu a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 400px;
+  margin-right: 100px;
+  font-family: "Poppins-Regular";
+}
+
+.hero {
+  background-image: url(kep_2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.main-title {
+  color: var(--title-color);
+  font-size: 50px;
+  max-width: 500px;
+  margin: 0px 0px 0px 520px;
+  margin-top: 120px;
+  line-height: 60px;
+  font-family: "Poppins-Regular";
+}
+
+.hero p {
+  font-family: "Poppins-Regular";
+  font-weight: 800;
+  text-align: center;
+  margin: 0 0 0 0;
+  font-size: 18px;
+  letter-spacing: 5px;
+  margin-top: 90px;
+}
+
+a.cta {
+  background-color: var(--title-color);
+  color: var(--button-color);
+  display: inline-block;
+  text-decoration: none;
+  margin: auto;
+  width: auto;
+  margin-top: 50px;
+  padding-inline: 25px;
+  padding-block: 5px;
+  font-family: "Poppins-Regular";
+  cursor: pointer;
+  text-align: center;
+  transition: ease-in-out 0.3s;
+  border-radius: 50px;
+}
+.cta :hover {
+  color: var(--title-color);
+  background-color: var(--button-color);
+  width: auto;
+}
+
+.section-left {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-left: 100px;
+  flex-direction: row-reverse;
+}
+
+.section-right {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-right: 100px;
+}
+
+.section-left img {
+  height: 200px;
+  width: auto;
+  margin-right: 100px;
+  margin-left: 20px;
+  border-radius: 15px;
+}
+
+.section-right img {
+  height: 200px;
+  width: auto;
+  margin-left: 100px;
+  margin-right: 20px;
+  border-radius: 15px;
+}
